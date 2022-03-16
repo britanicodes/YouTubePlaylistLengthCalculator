@@ -2,7 +2,7 @@ import re
 from datetime import timedelta
 from googleapiclient.discovery import build
 
-api_key = 'AIzaSyDNKA-ZHaQM8neL7UQ5SXDTWhKCCjqeRC8'
+# api_key = hidden
 
 youtube = build('youtube', 'v3', developerKey=api_key)
 
